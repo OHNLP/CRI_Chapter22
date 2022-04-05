@@ -1,0 +1,5 @@
+Patient id: 001
+Document id: 00001
+
+ASSESSMENT
+Patient presents for evaluation of fall, while walking or running, landing on hard surface, landing on left side.

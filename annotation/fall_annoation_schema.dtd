@@ -1,0 +1,15 @@
+<!ENTITY name "fall_schema_1_1">
+
+<!ELEMENT fall_mention ( #PCDATA ) >
+<!ATTLIST fall_mention certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST fall_mention status ( current | past ) #IMPLIED "" >
+<!ATTLIST fall_mention experiencer ( patient | family_member | other ) #IMPLIED "patient" >
+<!ATTLIST fall_mention exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST fall_mention comment CDATA "" >
+
+<!ELEMENT fall_indication ( #PCDATA ) >
+<!ATTLIST fall_indication certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST fall_indication status ( current | past ) #IMPLIED "" >
+<!ATTLIST fall_indication experiencer ( patient | family_member | other ) #IMPLIED "patient" >
+<!ATTLIST fall_indication exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST fall_indication comment CDATA "" >
